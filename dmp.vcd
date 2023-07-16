@@ -1,0 +1,241 @@
+$date
+	Wed Mar 29 15:04:27 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module testbench $end
+$var wire 32 ! rt [31:0] $end
+$var wire 32 " rs [31:0] $end
+$var wire 32 # rd [31:0] $end
+$var wire 16 $ pc_out [15:0] $end
+$var reg 1 % clk $end
+$var reg 16 & pc [15:0] $end
+$scope module cp $end
+$var wire 1 % clk $end
+$var wire 16 ' pc [15:0] $end
+$var wire 1 ( zero $end
+$var wire 3 ) type [2:0] $end
+$var wire 32 * rd [31:0] $end
+$var wire 32 + ins [31:0] $end
+$var wire 3 , data_pth [2:0] $end
+$var reg 1 - jump $end
+$var reg 16 . offset [15:0] $end
+$var reg 16 / pc_out [15:0] $end
+$var reg 32 0 rs [31:0] $end
+$var reg 32 1 rt [31:0] $end
+$var reg 5 2 shamt [4:0] $end
+$var integer 32 3 i [31:0] $end
+$scope module al $end
+$var wire 32 4 arg1 [31:0] $end
+$var wire 32 5 arg2 [31:0] $end
+$var wire 1 % clk $end
+$var wire 5 6 shamt [4:0] $end
+$var wire 3 7 func_code [2:0] $end
+$var reg 32 8 out [31:0] $end
+$var reg 1 ( zero $end
+$upscope $end
+$scope module inf $end
+$var wire 1 % clk $end
+$var wire 16 9 mem_addr [15:0] $end
+$var reg 32 : ins [31:0] $end
+$upscope $end
+$scope module op $end
+$var wire 1 % clk $end
+$var wire 32 ; ins [31:0] $end
+$var reg 3 < data_path [2:0] $end
+$var reg 3 = type [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx =
+bx <
+bx ;
+bx :
+b0 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+b100000 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+x-
+bx ,
+bx +
+bx *
+bx )
+x(
+b0 '
+b0 &
+0%
+bx $
+bx #
+bx "
+bx !
+$end
+#5
+b110 ,
+b110 <
+b1000100000000000100000 +
+b1000100000000000100000 :
+b1000100000000000100000 ;
+1%
+#10
+0%
+#15
+0-
+b1 !
+b1 1
+b1 5
+b1 "
+b1 0
+b1 4
+b0 )
+b0 7
+b0 =
+b1 ,
+b1 <
+1%
+#20
+0%
+#25
+0(
+b10 #
+b10 *
+b10 8
+1%
+#30
+0%
+#35
+1%
+#40
+0%
+b1 &
+b1 '
+b1 9
+#45
+b1000100000000000100010 +
+b1000100000000000100010 :
+b1000100000000000100010 ;
+1%
+#50
+0%
+#55
+b1 )
+b1 7
+b1 =
+1%
+#60
+0%
+b110 &
+b110 '
+b110 9
+#65
+b0 #
+b0 *
+b0 8
+b110000001000100000000000100100 +
+b110000001000100000000000100100 :
+b110000001000100000000000100100 ;
+1%
+#70
+0%
+#75
+b10 )
+b10 7
+b10 =
+b10 ,
+b10 <
+1%
+#80
+0%
+b1010 &
+b1010 '
+b1010 9
+#85
+b1 #
+b1 *
+b1 8
+b111100001000100000001010000000 +
+b111100001000100000001010000000 :
+b111100001000100000001010000000 ;
+1%
+#90
+0%
+#95
+b1010 2
+b1010 6
+b100 )
+b100 7
+b100 =
+1%
+#100
+0%
+b1110 &
+b1110 '
+b1110 9
+#105
+b10000000000 #
+b10000000000 *
+b10000000000 8
+b1010000001000000000000000001010 +
+b1010000001000000000000000001010 :
+b1010000001000000000000000001010 ;
+1%
+#110
+0%
+#115
+b111 )
+b111 7
+b111 =
+b110 ,
+b110 <
+1%
+#120
+0%
+#125
+1(
+1-
+b10000000000 !
+b10000000000 1
+b10000000000 5
+1%
+#130
+0%
+#135
+b101000 .
+1%
+#140
+0%
+#145
+b110110 $
+b110110 /
+1%
+#150
+0%
+#155
+1%
+#160
+0%
+#165
+1%
+#170
+0%
+#175
+1%
+#180
+0%
